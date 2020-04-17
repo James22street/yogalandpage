@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html, body {
+   height: 100%;
+   width: 100%;
+   font-family: 'Helvetica', sans-serif;
+   color: #222;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    text-emphasis: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:inherit; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.navbar{
+    padding: 0.5rem;
+    
+
+}
+.imglogo{
+    width: 50%;
+    height: 50%;
+}
+.navbar-nav li{
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+.nav-link{
+    font-size: 1.5em!important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateX(0%);
+
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    
+    text-align: center;
+    
+
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 200%;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom:  1rem;
+}
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+    text-decoration: none;
+    color:inherit;
+
+
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+.jumbotron{
+    padding: 1rem;
+    border: 0;
+}
+padding{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+.fa-dumbbell{
+    color: #000;
+
+}
+.fa-om{
+    color:orange;
+}
+.fa-carrot{
+    color: green;
+}
+.fa-dumbbell,.fa-om,.fa-carrot{
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-twitter{
+    color:#00aced;
+}
+.fa-google-plus-g{
+    color:#dd4b39;
+}
+.fa-instagram{
+    color:#517fa4;
+}
+.fa-youtube{
+    color: #bb0000 ;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color:#d5d5d5;
+
+}
+
+footer{
+    background-color: #d5d5d5;
+    padding-top: 2rem;
+
+}
+.hours{
+    text-align: center;
+}
+
+hr.light{
+    border-top: 1px;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+.imglogofooter{
+    width: 25%;
+    height:100%;
+}
+footer a {
+    color: #d5d5d5;
+}
+hr.light-100{
+    border-top: 1px;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media ( max-width: 992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+
+}
+@media ( max-width: 768px){
+    .carousel-caption{
+        
+        top: 10%;
+        
+    
+    }
+    .carousel-caption h1{
+        font-size: 1.5em;
+        
+    
+    }
+    .carousel-caption h3{
+        font-size: 1em;
+        font-weight: 50%;
+       
+        padding-bottom:  1rem;
+    }
+    .carousel-caption .btn {
+
+        font-size: 0.8em;
+        padding: 8px;
+       
+       
+
+    }
+    .carousel-caption #buttonone #buttontwo {
+
+        font-size: 0.8em;
+        font-weight: 0.3em;
+        float: right;
+        margin-left:300px;
+       
+
+    }
+.display-4{
+  font-size: 200%;  
+}
+.social a {
+    font-size: 1.7em;
+    padding: 1rem;
+}
+.imglogofooter{
+    width: 50%;
+    height:100%;
+}
+@media ( max-width: 576px){
+    
+
+}
+
+/* firefox bug fix */
+
+.carousel.-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+}
+
+/* fix Background Image */
+
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+
+.fixed-wrap{
+    clip: rect(0, auto,auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#fixed{
+    background-image: url('image/fitness-girl.jpg');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+             transform: translateZ(0);
+    will-change: transform;
+}
+/* Boot Padding Fix */
+
+[class="col-"]{
+    padding: 1rem;
+}
