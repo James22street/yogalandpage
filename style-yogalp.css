@@ -46,7 +46,10 @@ a:hover
 }
 .carousel-inner img {
     width: 100%;
-    height: 100%;
+    height: 700px;
+    object-fit: cover;
+    
+
     
 }
 .carousel-caption{
@@ -75,6 +78,7 @@ a:hover
     border: 1px solid #563d7c;
     text-decoration: none;
     color:inherit;
+    margin-bottom: 2em;
 
 
 }
